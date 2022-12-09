@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!Portafolio AF!</title>
+    <link rel="stylesheet" href="./styles/tarjetas.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Bungee+Spice&family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<header class="containerH">
+    <div class="nombre">
+        <img src="./assets/una.png" alt="A" class="iconos"><img src="./assets/f.png" alt="f" class="iconos">
+        <p class="nombre">Alan Fernandez</p>
+    </div>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+    </div>
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="mailto:Fernanezalan93@gmail.com">e-mail</a></li>
+         </ul>
+    </nav>
+</div>
+    <div class="menu-bg" id="menu-bg"></div>
+</header>
+<body>
+    <div class="sobre-mi" id="sobre-mi">
+        <h3 class="titulo">Sobre Mi</h3>
+        
+        <p class="descripcion"><img src="./assets/LRM_20221121_192518.png" alt="foto" class="foto">Buenas me presento, soy Alan Fernandez, empecé en el desarrollo
+            web en abril de 2022 gracias al programa ONE de Oracle dictado
+            por Alura Latam, donde aprendí sobre Lógica de programacion,
+            HTML, CSS y JavaScript, entre otras cosas. 
+            Aquí les presento algunos <a href="#proyectos">Proyectos</a> realizados hasta la fecha, mis <a href="#hobbies">Hobbies</a> y mi <a href="#formacion">formación</a> hasta el momento. <br>Si bien el desarrollo web me parece muy interesante, tambien quiero abrirme a otras ramas del mundo IT como la Ciencia de Datos y el Machine Learning, poco a poco me voy formando en dichos campos.
+        </p>
+    </div>
+    <div class="proyectos" id="proyectos">
+        <h1>Proyectos</h1>
+        <div class="p1 scene scene--card">
+            <div class="card">
+                <div class="card__face card__face--front">
+                    <p class="front__content">Code/DeCode<br>(Responsive)</p>
+                </div>            
+                <div class="card__face card__face--back b1">
+                    <p>Codificador y decodificador de texto, realizado como Challenge en Alura<br><a target="_blank" href="https://af-93.github.io/codeDecode/">click aquí para ir al proyecto</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="p2 scene scene--card">
+            <div class="card">
+                <div class="card__face card__face--front">
+                    <p class="front__content">Juego del Ahorcado<br>(Desktop)</p>
+                </div>            
+                <div class="card__face card__face--back b2">
+                    <p>Juego del Ahorcado realizado para un Challenge de Alura, las palabras a adivinar son personajes de peliculas de terror.<br><a target="_blank" href="https://af-93.github.io/ahorcado/">click aquí para ir al proyecto</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="p3 scene scene--card">
+            <div class="card">
+                <div class="card__face card__face--front">
+                    <p class="front__content">Lista de Pendientes<br>(Desktop)</p>
+                </div>            
+                <div class="card__face card__face--back b3">
+                    <p>Práctica lista de pendientes realizada como proyecto de curso.<br><a target="_blank" href="http://af-93.github.io/ToDo/">click aquí para ir al proyecto</a></p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="p4 scene scene--card">
+            <div class="card">
+                <div class="card__face card__face--front">
+                    <p class="front__content">Como Se Pronuncia BOT<br>(Desktop)</p>
+                </div>            
+                <div class="card__face card__face--back b4">
+                    <p>Proyecto personal inspirado en la necesidad de enseñar como se pronuncian algunas palabras y para apoyar el aprendisaje de como se escriben las mismas al tener que ingresarlas en un cuadro de texto.<br><a href="https://af-93.github.io/cspb/" target="_blank">click aquí para ir al proyecto</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hobbies" id="hobbies">
+        <h3 class="hob">Hobbies</h3>
+						<div class="hob1">
+								<img src="./assets/musica.png" alt="Música" class="icons" >
+								<h5>Música</h5>
+                        </div>
+						<div class="hob2">
+								<img src="./assets/startup.png" alt="Cohete saliendo de pc" class="icons">
+								<h5>Videojuegos</h5>
+						</div>
+						<div class="hob3">
+								<img src="./assets/sombrero.png" alt="Sombrero de Cocina" class="icons">
+								<h5>Cocina</h5>
+						</div>
+						<div class="hob4">
+								<img src="./assets/pintura.png" alt="Paleta de pintura" class="icons">
+								<h5>Arte Digital</h5>
+						</div>
+						<div class="hob5">
+								<img src="./assets/libro-de-ortografia.png" alt="libro" class="icons">
+								<h5>Comic/Manga</h5>
+						</div>
+    </div>
+    <div class="formacion" id="formacion">
+        <h3>Formación</h3>
+				    <a href="https://www.aluracursos.com/" target="_blank"><img src="./assets/Alura Logo.png" alt="Alura Logo" id="Alura-logo"></a>
+                    <h5>Alura Latam, como parte del programa ONE(Oracle Next Education)</h5>
+                    <h5>... e investigaciones por mi cuenta</h5>
+                    
+    </div>
+    <form class="contacto" id="contacto"  action="https://formspree.io/f/xvoyadgw"
+    method="POST">
+            <h3>
+                <img src="./assets/envio.png" alt="sobre abierto" class="icons">
+                Contacto </h3>
+             <span id="contacto">
+              <h4>
+                  Nombre:
+              </h4>
+              <input type="text" name="nombre"><br>
+              <h4>
+                  Mail:
+              </h4>
+              <input type="email" name="email"><br>
+              <h4>
+                  Mensaje:
+              </h4>
+              <textarea name="mensaje" cols="30" rows="10"></textarea><br>
+              <input type="submit" id="Enviar" href="./formulario-enviado.html">
+          </span>
+        </form>
+    <script src="./js/nav.js"></script>
+    <script src="./js/tarjetas.js"></script>
+</body>
+<footer>
+      <div class="redes">
+        <div class="red1"><a href="https://www.linkedin.com/in/alan-fernandez1993" class="redes" target="_blank" rel="noopener noreferrer"> <i style="font-size:24px" class="fa">&#xf08c;</i></a></div>
+        <div class="red2"><a href="https://github.com/AF-93" class="redes" target="_blank" rel="noopener noreferrer"><i style="font-size:24px" class="fa">&#xf09b;</i></a></div>
+    </div>
+    <a href="https://www.flaticon.es/autores/freepik" title="iconos creados por Freepik">Iconos creados por Freepik - Flaticon</a>
+</footer>
+</html>

@@ -1,0 +1,204 @@
+*{  
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    margin: 0.5rem;
+    padding: 0;
+}
+body{
+    background: linear-gradient(270deg, #231248, #473073, #200757);
+    background-size: 600% 600%;
+    animation: fondo 12s ease infinite;
+    
+}
+    @keyframes fondo {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+
+}
+h1,h3,h5{
+    color: rgb(228, 193, 250);
+    font-weight: 100;
+    text-align: center;
+
+}
+.nombre{
+    filter: hue-rotate(80deg);
+    text-align: center;
+    color: rgb(228, 193, 250);
+}
+.iconos{
+    width: 38px;
+    margin: 1px;
+}
+a,li{
+    text-align: center;
+    list-style: none;  
+    text-decoration: none;
+    color: rgb(228, 193, 250);
+}
+
+.icons{
+    width: 56px;
+    height: 56px;
+}
+.icons:hover{
+    animation: crece 1s;    
+}
+@keyframes crece {
+    0%{
+        width: 56px;
+        height: 56px;
+    }
+    50%{
+        width: 76px;
+        height: 76px;
+    }
+}
+.hobbies{
+    color: rgb(228, 193, 250);
+    background: linear-gradient(270deg, #564d698a, #4730738a, #2007578a);
+    background-size: 600% 600%;
+    animation: fondo 12s ease infinite;
+    padding: 10vh;
+    border-top: 5px solid rgba(137, 43, 226, 0.099);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows:   15% auto;
+    text-align: center;
+    grid-template-areas: "hob hob hob hob hob"
+    "hob1 hob2 hob3 hob4 hob5"
+}
+.hobbies .hob{
+    grid-area: hob;
+}
+.hobbies .hob1{
+    grid-area: hob1;
+}
+.hobbies .hob2{
+    grid-area: hob2;
+}
+.hobbies .hob3{
+    grid-area: hob3;
+}
+.hobbies .hob4{
+    grid-area: hob4;
+}
+.hobbies .hob5{
+    grid-area: hob5;
+}
+.sobre-mi{
+    color: rgb(228, 193, 250);
+    border-top: 5px solid #892be219;
+    text-align: center;
+    padding: 10vh;
+    background: linear-gradient(270deg, #564d698a, #4730738a, #2007578a);
+    background-size: 600% 600%;
+    animation: fondo 12s ease infinite;
+}
+.sobre-mi .titulo{
+    padding: 2px;
+    margin-bottom: 1%;
+    color: rgb(228, 193, 250);
+}
+.sobre-mi .foto{
+    width: 260px;
+    height: 250px;
+    border-radius: 50%;
+    float: right;
+}
+.sobre-mi .descripcion{
+    line-height: 200%;
+    height: 250px; 
+}
+.contacto{
+    color: rgb(228, 193, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    padding: 10vh;
+    border-top: 5px solid rgba(137, 43, 226, 0.099);
+    position: static;
+    background: linear-gradient(270deg, #564d698a, #4730738a, #2007578a);
+    background-size: 600% 600%;
+    animation: fondo 12s ease infinite;
+}
+.formacion{
+    color: rgb(228, 193, 250);
+    position:sticky;
+    border-top: 5px solid rgba(137, 43, 226, 0.099);
+    padding: 10vh;
+    line-height: 200%;
+    text-align: center;
+    background: linear-gradient(270deg, #564d698a, #4730738a, #2007578a);
+    background-size: 600% 600%;
+    animation: fondo 12s ease infinite;
+}
+.formacion #Alura-logo{
+    filter: drop-shadow(0 0 0.75rem rgb(247, 204, 255));
+    margin: 25px;
+}
+.proyectos{
+    color: rgb(228, 193, 250);
+    background: linear-gradient(270deg, #564d698a, #4730738a, #2007578a);
+    background-size: 600% 600%;
+    animation: fondo 12s ease infinite;
+    border-top: 5px solid rgba(137, 43, 226, 0.099);
+    display: grid;   
+    grid-template-columns: 50% 50%;
+    grid-template-rows:  5% auto auto;
+    grid-template-areas: "ti ti"
+    "p1 p2"
+    "p3 p4";
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+.proyectos h1{
+    grid-area: ti;
+}
+.proyectos .p1{
+    grid-area: p2;
+    align-self: center;
+}
+.proyectos .p2{
+    place-items: center;
+    align-self: center;
+    grid-area: p1;
+}
+.proyectos .p3{
+    align-self: center;
+    place-items: center;
+    grid-area: p3;
+}
+.proyectos .p4{
+    align-self: center;
+    place-items: center;
+    grid-area: p4;
+}
+footer{
+    background: linear-gradient(270deg, #564d698a, #4730738a, #2007578a);
+    background-size: 600% 600%;
+    animation: fondo 12s ease infinite;
+    padding-top: 1vh;
+    border-top: 5px solid rgba(137, 43, 226, 0.099);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer .redes{
+    color: rgb(228, 193, 250);
+    padding-bottom: 5vh;
+    display: flex;
+    height: 15px;
+    align-self: center;
+    justify-self: baseline;
+}
+footer a{
+    color: rgb(228, 193, 250);
+}
+
